@@ -6,14 +6,14 @@ Code and data for **Agentic Edge Vision with Privacy-Conscious Communication for
 
 ## Overview
 
-This repository implements a resource-aware fall detection framework for edge devices. The system combines a compact Vision Transformer (AgenticViT) with an uncertainty-driven agentic controller that selects one of five actions — *Infer*, *Enhance*, *FeatureSend*, *Defer*, or *Adapt* — based on real-time resource state and model confidence. Only compressed feature vectors are transmitted; raw video never leaves the device.
+This repository implements a resource-aware fall detection framework for edge devices. The system combines a compact Vision Transformer (AgenticViT) with an uncertainty-driven agentic controller that selects one of five actions (*Infer*, *Enhance*, *FeatureSend*, *Defer*, or *Adapt*) based on real-time resource state and model confidence. Only compressed feature vectors are transmitted; raw video never leaves the device.
 
 ## Results
 
 | Model | Params (M) | Test Accuracy | Test Macro-F1 | Jetson Latency (ms) |
 |---|---|---|---|---|
-| MobileNetV3-Small | 1.52 | 89.1% | 0.890 | — |
-| EfficientNet-B0 | 4.01 | 90.9% | 0.908 | — |
+| MobileNetV3-Small | 1.52 | 89.1% | 0.890 | N/A |
+| EfficientNet-B0 | 4.01 | 90.9% | 0.908 | N/A |
 | AgenticViT (ours) | 5.72 | 92.6% | 0.924 | 27.4 |
 
 Evaluated on the LE2I fall detection dataset. Full results in `results/`.
@@ -65,4 +65,4 @@ python scripts/plot_figures.py
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
