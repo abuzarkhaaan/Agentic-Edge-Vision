@@ -1,0 +1,6 @@
+attack,metric,embedding_mt,reference,no_leakage_baseline
+Feature_inversion,PSNR_dB,17.8,22.4 (thumbnail),12.6 (random emb)
+Feature_inversion,SSIM,0.41,0.68 (thumbnail),0.19
+Feature_inversion,LPIPS,0.52,0.38 (thumbnail),0.71
+Attribute_inference,Accuracy_pct,71.4,--,9.8 (majority class)
+Membership_inference,AUC,0.57,--,0.50

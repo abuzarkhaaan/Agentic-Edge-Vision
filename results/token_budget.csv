@@ -1,0 +1,7 @@
+policy_condition,mean_kt,pct_at_kmin,pct_at_kmax,macro_f1,latency_ms,energy_J,gflops
+Adaptive_clean,118.6,1.9,1.9,0.92,25.0,0.18,12.1
+Adaptive_lowlight,110.2,3.8,2.8,0.85,24.0,0.18,11.3
+Adaptive_noise,112.4,0.9,0.9,0.8,24.3,0.18,11.5
+Adaptive_blur,113.1,1.9,0.9,0.85,24.3,0.18,11.6
+Fixed_kmax_clean,160.0,--,100,0.93,30.8,0.22,16.4
+Fixed_kmin_clean,64.0,100,--,0.88,19.6,0.14,6.6

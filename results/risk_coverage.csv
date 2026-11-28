@@ -1,0 +1,4 @@
+method,delta,accepted_n,total_n,coverage_pct,errors,risk_pct,fall_fnr_accepted_pct,falls_rejected,system_miss_rate_pct,aurc
+No_deferral,N/A,106,106,100,8,7.55,4/53 (7.55%),0,4/53 (7.55%),0.075
+MSP_normalized_entropy,0.08/0.40,91,106,85.85,4,4.4,2/45 (4.44%),8,10/53 (18.87%),0.031
+Agentic_ViT_score,0.41,91,106,85.85,3,3.3,1/44 (2.27%),9,10/53 (18.87%),0.027

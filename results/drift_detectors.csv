@@ -1,0 +1,8 @@
+detector,parameters,delay_windows,fpr_no_drift_per1000,fpr_stationary_difficult_per1000,miss_rate_pct
+Proposed_m-of-n,"tau_adapt=0.75,m=6,n=8",7.4,2.1,38.6,3.0
+m-of-n_variants,"(m,n) in {(3,4),(4,8),(8,10)}",4.1-9.6,1.2-14.8,21.4-96.2,1.5-6.1
+m-of-n_other_tau,"tau_adapt in {0.65,0.85}",6.2-9.8,0.8-6.4,17.9-71.3,1.8-7.4
+EWMA,"smoothing=0.2,limit=0.60",6.1,4.3,52.7,2.4
+Page-Hinkley_CUSUM,"tolerance=0.05,threshold=1.5",5.2,6.8,64.1,1.9
+Two-sample_KS,"window=32,alpha=0.01",13.4,1.6,9.8,8.5
+Learned_detector,logistic_regression_last_8_u_t,5.5,3.2,44.5,2.1

@@ -1,0 +1,7 @@
+model,params_M,size_MB,cpu_ms,gpu_ms,split,accuracy,macro_f1,precision,recall,p_vs_agentic_vit
+MobileNetV3-Small,1.52,5.93,10.43,4.61,val,0.901,0.9,0.9,0.9,
+MobileNetV3-Small,1.52,5.93,10.43,4.61,test,0.891,0.89,0.89,0.89,0.04
+EfficientNet-B0,4.01,15.59,28.02,6.98,val,0.919,0.918,0.92,0.92,
+EfficientNet-B0,4.01,15.59,28.02,6.98,test,0.909,0.908,0.9,0.91,0.27
+Agentic_ViT,5.72,21.82,45.14,10.5,val,0.939,0.938,0.93,0.94,
+Agentic_ViT,5.72,21.82,45.14,10.5,test,0.926,0.924,0.93,0.93,Ref

@@ -1,0 +1,7 @@
+policy,receiver,clean_f1,clean_fnr_pct,corrupted_f1,corrupted_fnr_pct
+P4_always_featuresend,assumed_0.97,0.97,3.77,0.92,7.55
+P4_always_featuresend,measured_0.92,0.92,7.55,0.84,15.72
+P5_random,assumed_0.97,0.91,9.43,0.86,15.09
+P5_random,measured_0.92,0.91,9.43,0.84,17.61
+P6_complete,assumed_0.97,0.92,5.66,0.9,11.32
+P6_complete,measured_0.92,0.92,5.66,0.88,12.58

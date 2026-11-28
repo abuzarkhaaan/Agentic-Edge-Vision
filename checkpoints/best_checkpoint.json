@@ -1,0 +1,7 @@
+{
+  "best_model": "agentic_vit_seed42.pt",
+  "mean_accuracy_5runs": 0.926,
+  "mean_macro_f1_5runs": 0.924,
+  "std_accuracy": 0.009,
+  "std_macro_f1": 0.01
+}

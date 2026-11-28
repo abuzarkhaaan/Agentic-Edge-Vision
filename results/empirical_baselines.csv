@@ -1,0 +1,5 @@
+method,accuracy,macro_f1,fall_fnr_pct,latency_ms,bytes_per_decision,energy_J,tamper_evident_log
+Early-exit_DeiT-Tiny,0.9,0.89,9.43,17.9,0,0.11,No
+Edge-cloud_split_layer6,0.9,0.89,9.43,38.7,75648,0.17,No
+Confidence-offloading_thr0.50,0.93,0.92,7.55,29.8,27095,0.19,No
+Agentic_ViT,0.93,0.92,5.66,30.5,75.5,0.2,Yes

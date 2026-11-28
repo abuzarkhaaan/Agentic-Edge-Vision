@@ -1,0 +1,4 @@
+miss_num,condition,uncertainty_ui,action,resource_headroom_bt,silent,note
+1,Occluded,0.12,Infer,0.42,Yes,Low u_i; Enhance/FeatureSend not triggered
+2,Resting-like,0.17,Infer,0.38,Yes,Resting-like pose
+3,Dark,0.64,Defer,0.0,No,FS eligible by u_i; prev decision exceeded E_max
