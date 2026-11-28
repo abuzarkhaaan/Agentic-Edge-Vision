@@ -1,5 +1,3 @@
-# Agentic Edge Vision
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24623334.svg)](https://doi.org/10.5281/zenodo.24623334)
 
 Code and data for **Agentic Edge Vision with Privacy-Conscious Communication for Human-Centered Pervasive Computing**.
